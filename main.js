@@ -1,6 +1,6 @@
 window.onload = function onLoad() {
-    var element = document.getElementById('container');
-    var min = 10;
+    var element = document.getElementById('timer');
+    var min = 120;
     var sec = 0;
     var seconds = new ProgressBar.Circle(element, {
     duration: 800,
